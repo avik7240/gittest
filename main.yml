@@ -1,7 +1,7 @@
 ---
  
   -name: create ec2
-   hosts: all
+   hosts: local
 
 
   - ec2:
