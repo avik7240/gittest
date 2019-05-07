@@ -3,12 +3,11 @@
   - name: create ec2
     hosts: local
 
-
-  - ec2:
+  - name: launch 
+    ec2:
     key_name: virginia
     instance_type: t2.micro
     image: ami-0de53d8956e8dcf80
-    wait: yes
     group: launch-wizard-7
     count: 1
     vpc_subnet_id: subnet-0526b07906bc80138
