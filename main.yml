@@ -1,7 +1,6 @@
 ---
  
-  - name: create ec2
-    hosts: local
+
 
    
     ec2:
